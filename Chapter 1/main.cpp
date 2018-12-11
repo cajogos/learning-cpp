@@ -3,9 +3,12 @@
 
 int main ()
 {
-	std::cout << std::setw(5) << 2018 << " is today's year." << std::endl;
-	std::cout << std::setw(5) << 12 << " is today's month." << std::endl;
-	std::cout << std::setw(5) << 11 << " is today's day." << std::endl;
+	int year = 2018, mon = 12, day = 11;
+
+	std::cout << "Today is: "
+		<< std::setw(2) << day << "/"
+		<< std::setw(2) << mon << "/"
+		<< year << std::endl;
 
 	return 0;
 }
