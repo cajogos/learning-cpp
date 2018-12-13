@@ -1,18 +1,15 @@
 #include <iostream>
 
-#define PI 3.14
-
 int main()
 {
-    std::cout << "Enter circle radius: ";
+    auto x = 10.5;
+    auto y = 10;
 
-    float radius;
+    int var1 = 10;
+    int var2(20);
+    int var3{20};
 
-    std::cin >> radius;
-
-    float circle_area = PI * radius * radius;
-
-    std::cout << "The area of the circle is: " << circle_area << std::endl;
+    auto var{6};
 
     return 0;
 }
