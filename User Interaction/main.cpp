@@ -2,14 +2,19 @@
 
 int main()
 {
-    int number;
+    int n1, n2, n3, n4, n5;
 
-    std::cout << "Enter an integer: ";
-    std::cin >> number;
+    std::cout << "Enter five integers, separated by space: ";
 
-    int squared = number * number;
+    std::cin >> n1 >> n2 >> n3 >> n4 >> n5;
 
-    std::cout << "The squared value of " << number << " is " << squared << std::endl;
+    int sum = n1 + n2 + n3 + n4 + n5;
+
+    float average = sum / 5.0f;
+
+    std::cout << "The sum is " << sum << std::endl;
+
+    std::cout << "The average is " << average;
 
     return 0;
 }

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1544730268 source:c:\cygwin64\home\carlos\learning-cpp\user interaction\main.cpp
+	<iostream>
+
+1544730208 source:c:\cygwin64\home\carlos\learning-cpp\user interaction\sum.cpp
+	<iostream>
+
